@@ -11,6 +11,6 @@ Here are some ideas to get you started:
 - 🤔 I’m looking for help with Advanced Machine Learning
 - 💬 Ask me about Astronomy
 - 📫 How to reach me: vishnuviswambharan1994@gmail.com
-- 😄 Pronouns: ...
+- 😄 Pronouns: V--ish--nnu
 - ⚡ Fun fact: Why so Serious!!
 -->
