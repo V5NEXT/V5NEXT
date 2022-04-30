@@ -12,5 +12,5 @@ Here are some ideas to get you started:
 - 💬 Ask me about Astronomy
 - 📫 How to reach me: vishnuviswambharan1994@gmail.com
 - 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- ⚡ Fun fact: Why so Serious!!
 -->
