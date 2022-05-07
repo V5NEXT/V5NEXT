@@ -7,5 +7,5 @@
 - 💬 Ask me about Astronomy
 - 📫 How to reach me: vishnuviswambharan1994@gmail.com
 - 😄 Pronouns: V--ish--nnu
-- ⚡ Fun fact: Why so Serious??
+- ⚡ Fun fact: At the end of every black hole is a white hole, creating a new universe in the rift of space. So who knows? I maybe famous in one.
 
