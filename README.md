@@ -1,9 +1,9 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on DeepLearning
-- 🌱 I’m currently learning Open CV and Recommender Systems
-- 👯 I’m looking to collaborate on Deep Learning
-- 🤔 I’m looking for help with Advanced Machine Learning
+- 🔭 I’m currently working on DeepLearning.
+- 🌱 I’m currently learning Open CV and Recommender Systems.
+- 👯 I’m looking to collaborate on Deep Learning.
+- 🤔 I’m looking for help with Advanced Machine Learning.
 - 💬 Ask me about Astronomy and History
 - 📫 How to reach me: vishnu.v5next@gmail.com
 - 😄 Pronouns: V--ish--nnu.
