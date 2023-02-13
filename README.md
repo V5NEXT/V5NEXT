@@ -10,3 +10,68 @@
 - 😄 Pronouns: V--ish--nnu.
 - ⚡ Fun fact: At the end of every black hole is a white hole, creating a new universe in the rift of space. In One I am the BATMAN
 
+
+
+import React, { useState } from 'react';
+
+interface MultiLevelDropdownProps {
+  items: Array<string | { [key: string]: Array<string | { [key: string]: Array<string | { [key: string]: Array<string> }> }> }>;
+  onChange?: (value: string) => void;
+}
+
+const MultiLevelDropdown: React.FC<MultiLevelDropdownProps> = ({ items, onChange }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedValue, setSelectedValue] = useState('');
+
+  const handleSelect = (value: string) => {
+    setSelectedValue(value);
+    setIsOpen(false);
+    if (onChange) {
+      onChange(value);
+    }
+  };
+
+  const renderDropdown = (data: Array<string | { [key: string]: Array<string> }>, level = 0) => {
+    return data.map((item, index) => {
+      if (typeof item === 'string') {
+        return (
+          <li key={index}>
+            <button
+              onClick={() => handleSelect(item)}
+              style={{ paddingLeft: level * 10 }}
+            >
+              {item}
+            </button>
+          </li>
+        );
+      } else {
+        const [key, value] = Object.entries(item)[0];
+        return (
+          <li key={index}>
+            {key}
+            <ul>
+              {renderDropdown(value, level + 1)}
+            </ul>
+          </li>
+        );
+      }
+    });
+  };
+
+  return (
+    <div>
+      <button onClick={() => setIsOpen(!isOpen)}>
+        Dropdown ({selectedValue || 'Select a value'})
+      </button>
+      {isOpen && (
+        <ul>
+          {renderDropdown(items)}
+        </ul>
+      )}
+    </div>
+  );
+};
+
+export default MultiLevelDropdown;
+
+
