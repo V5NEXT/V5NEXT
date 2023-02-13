@@ -12,20 +12,4 @@
 
 
 
-ERROR in src/components/common/MultiDropDown.tsx:54:27
-TS2345: Argument of type '(string | { [key: string]: (string | { [key: string]: (string | { [key: string]: string[]; })[]; })[]; })[]' is not assignable to 
-parameter of type '(string | { [key: string]: string[]; })[]'.
-  Type 'string | { [key: string]: (string | { [key: string]: (string | { [key: string]: string[]; })[]; })[]; }' is not assignable to type 'string | { [key: string]: string[]; }'.
-    Type '{ [key: string]: (string | { [key: string]: (string | { [key: string]: string[]; })[]; })[]; }' is not assignable to type 'string | { [key: string]: string[]; }'.
-      Type '{ [key: string]: (string | { [key: string]: (string | { [key: string]: string[]; })[]; })[]; }' is not assignable to type '{ [key: string]: string[]; }'.
-        'string' index signatures are incompatible.
-          Type '(string | { [key: string]: (string | { [key: string]: string[]; })[]; })[]' is not assignable to type 'string[]'.
-            Type 'string | { [key: string]: (string | { [key: string]: string[]; })[]; }' is not assignable to type 'string'.
-              Type '{ [key: string]: (string | { [key: string]: string[]; })[]; }' is not assignable to type 'string'.
-    52 |       {isOpen && (
-    53 |         <ul>
-  > 54 |           {renderDropdown(items)}
-       |                           ^^^^^
-    55 |         </ul>
-    56 |       )}
-    57 |     </div>
+
